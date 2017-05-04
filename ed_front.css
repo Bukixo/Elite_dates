@@ -1,0 +1,361 @@
+
+body{
+	
+  }
+#header {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 140px;
+	margin-top: -8px;
+	opacity: 0.7;
+	
+}
+
+h1 {
+	font-family: Faroe;
+	font-size: 70px;
+	color: #9C8363; 
+	text-align: center;
+	margin-top: 15px;
+	opacity: none;
+
+}
+
+nav {
+	text-align: center;
+	margin-top: -35px;
+	list-style-image: 
+	color:#9C8363;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: #9C8363;
+}
+
+/* visited link */
+a:visited {
+    color: #9C8363;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color:#9C8363;
+}
+
+/* ABOUT US SECTION */
+
+#about_us_background {
+	background: url("http://i64.tinypic.com/a0dtvl.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+#header-2 {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 140px;
+	margin-top: -26px;
+	opacity: 0.7;
+}
+
+#about_us_box {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 150px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 114.2px;
+	float:left;
+width:650px;
+overflow-y: auto;
+height: 450px;	
+}
+
+p {
+	color: #9C8363; 
+	padding-right: 50px;
+	padding-left: 50px
+
+}
+
+/* Products Section */
+
+#products_background{
+	background: url("https://a0lhiq-sn3302.files.1drv.com/y3mDOVeDbWYTteZvG-ejU12h1LgC6_yJhrDpNUKlOfAi0lcsJ1t2V_RMVN-RHTbffSiRmW86lqEkmFQzB9xdHkUL5c4WH7knQF_NpFjx-ngPZExl4vUHUWSSDw5MUJhRctmbgiwisRC6D4duJQohXy4D_xuJgdw4xCxMD6u14jmLme2gqMgu5PJKtEHRkmdBdQp?width=660&height=439&cropmode=none") no-repeat center center fixed; 
+  background-size: cover;
+  }
+
+#products_box {
+background-color: black;
+	position:fixed;
+	left: 0;
+	right:0;
+	height: 600px;
+	width: 850px;
+	opacity: 0.9;
+	margin-top: 113px;
+	margin-left: 220px;
+	float: center;
+
+overflow-y: auto;
+}
+
+td {
+	color: #9C8363; 
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	position: center:;
+
+}
+th {
+	color: #9C8363; 
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+
+}
+
+a {
+	opacity: 1;
+}
+table {
+	padding-top: 50px:;
+}
+/*faq Section*/
+#faq_background{
+	background: url("https://qhluqa-sn3302.files.1drv.com/y3myS2cbFCdYlBRWziNzHHOfNmi2InG2jVqhIUPKGI07j6zg76R8ncNxkd1hTkLaetLQm_iADNeBmL_LI1WYj-jakx2jQBI8TbgTTNbUr_GLxdFrP2JWIQ1rl6K1Dfoa3HZPRmKJjfgCSkfy-u3k03TKLLhcC8PYF99kj5xfRL-jvCWL09V-YYGLAYnkt2NsX7V?width=6016&height=4000&cropmode=none") no-repeat center center fixed; 
+  background-size: cover;
+  }
+
+  #faq_box {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 450px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 280px;
+	margin-left: 630px;
+	float:left;
+width:650px;
+overflow-y: auto;
+height: 450px;	
+
+}
+
+/*LEGAL SECTION */
+#legal_background{
+	background: url("https://qhmytw-sn3302.files.1drv.com/y3m0CNMv7CNFqGV7unN1CRtgdRUJ9ONy4w73qqorL27Ltl2OwsmwR0a5EBAQiRVnwgWsWLojv2yZvaYzfCcGzatl0rtgafgbYWyq_Msaamvb7iHVekaY5fxBO551Hzo0UH2wgQBohtvN5Z7GChEdPsYzboEz05bYrfaB36z0dLlo59qPcGZzBgpNU9La-o_Br7V?width=660&height=439&cropmode=none") no-repeat center center fixed; 
+  background-size: cover;
+  }
+
+#legal_box {
+background-color: black;
+	position:fixed;
+	left: 0;
+	right:0;
+	height: 150px;
+	width: 650px;
+	opacity: 0.8;
+	margin-top: 200px;
+	margin-left: 350px;
+	float: center;
+width:650px;
+overflow-y: auto;
+height: 450px;	
+}
+
+p {
+	color: #9C8363; 
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+
+}
+
+table {
+	padding-top: 50px:;
+}
+
+/*SHIPPING SECTION */
+#shipping_background{
+	background: url("http://i66.tinypic.com/vo1ugn.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  }
+
+#shipping_box {
+background-color: black;
+	position:fixed;
+	left: 0;
+	right:0;
+	height: 150px;
+	width: 650px;
+	opacity: 0.8;
+	margin-top: 200px;
+	margin-left: 350px;
+	float: center;
+width:650px;
+overflow-y: auto;
+height: 450px;	
+}
+
+p {
+	color: #9C8363; 
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+
+}
+
+table {
+	padding-top: 50px:;
+}
+@media (max-width: 500px) {
+
+	#faq_box {
+		height: 150px;
+		width: 150px;
+	}
+
+p {
+	color: #9C8363; 
+	padding-right: 50px;
+	padding-left: 50px
+}
+
+}
+
+/*CONTACT SECTION */
+#contact_background{
+	background: url("https://qhmytw-sn3302.files.1drv.com/y3m0CNMv7CNFqGV7unN1CRtgdRUJ9ONy4w73qqorL27Ltl2OwsmwR0a5EBAQiRVnwgWsWLojv2yZvaYzfCcGzatl0rtgafgbYWyq_Msaamvb7iHVekaY5fxBO551Hzo0UH2wgQBohtvN5Z7GChEdPsYzboEz05bYrfaB36z0dLlo59qPcGZzBgpNU9La-o_Br7V?width=660&height=439&cropmode=none") no-repeat center center fixed; 
+  background-size: cover;
+  }
+
+#contact_box {
+background-color: black;
+	position:fixed;
+	left: 0;
+	right:0;
+	height: 150px;
+	width: 650px;
+	opacity: 0.8;
+	margin-top: 200px;
+	margin-left: 350px;
+	float: center;
+width:650px;
+overflow-y: auto;
+height: 450px;	
+}
+
+p {
+	color: #9C8363; 
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+
+}
+
+.fade {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+footer {
+
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 50px;
+	margin-top: 730px;
+	opacity: 0.7;
+	color: white;
+	text-align: center;
+}
+
+
+@media (max-width: 800px) {
+
+	#header-2 {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 220px;
+	margin-top: -26px;
+	margin-right: -30px;
+	opacity: 0.7;
+}
+
+#about_us_box {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 300px;
+	width: 350px;
+	opacity: 0.7;
+	float: center;
+	margin-top: 300px;
+	margin-left: 80px;
+
+}
+
+p {
+	
+	padding-bottom: 50px;
+	
+
+}

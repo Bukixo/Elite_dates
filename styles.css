@@ -1,0 +1,307 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+#cb-slideshow {
+	margin-top: 0;
+
+}
+
+.cb-slideshow,
+.cb-slideshow:after {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.cb-slideshow:after {
+    content: '';
+    background: transparent url(../images/pattern.png) repeat top left;
+}
+
+.cb-slideshow li div {
+
+    animation: titleAnimation 30s linear infinite 0s;
+}
+
+.cb-slideshow li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 30s linear infinite 0s;
+}
+
+.cb-slideshow li:nth-child(1) span {
+    background-image: url("http://i63.tinypic.com/2s9oqpz.jpg")
+}
+.cb-slideshow li:nth-child(2) span {
+    background-image: url("http://i64.tinypic.com/24uyzwp.jpg");
+    animation-delay: 10s;
+}
+.cb-slideshow li:nth-child(3) span {
+    background-image: url("http://i66.tinypic.com/e99lz7.jpg");
+    animation-delay: 20s;
+}
+
+
+@keyframes imageAnimation {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    5% { opacity: 1; animation-timing-function: ease-out; }
+    30% { opacity: 1 }
+    45% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes titleAnimation {
+	0% {
+	    opacity: 0;
+	    transform: translateX(200px);
+	}
+	5% {
+	    opacity: 1;
+	    transform: translateX(0px);
+	}
+	17% {
+	    opacity: 1;
+	    transform: translateX(0px);
+	}
+	30% {
+	    opacity: 0;
+	    transform: translateX(-400px);
+	}
+	45% { opacity: 0 }
+	100% { opacity: 0 }
+}
+
+
+/*pasted css*/
+
+
+#first_info_box {
+	background-color: black;
+	position:absolute;
+	left:0;
+	right:0;
+	height: 250px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 114.2px;
+  animation-delay: 0s;
+
+}
+
+#second_info_box {
+	background-color: blue;
+	position:absolute;
+	left:0;
+	right:0;
+	height: 250px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 114.2px;
+  animation-delay: 10s;
+
+}
+
+#third_info_box {
+	background-color: red;
+	position:absolute;
+	left:0;
+	right:0;
+	height: 250px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 114.2px;
+  animation-delay: 20s;
+
+}
+
+.test {
+	background-color: red;
+	position:absolute;
+	left:0;
+	right:0;
+	height: 250px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 114.2px;
+  animation-delay: 20s;
+
+}
+
+
+
+
+#header {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 140px;
+	margin-top: -8px;
+	opacity: 0.7;
+
+}
+
+#footer {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 90px;
+	margin-top: 730px;
+	opacity: 0.7;
+	bottom: 90px;
+}
+
+h1 {
+	font-family: Faroe;
+	font-size: 70px;
+	color: #9C8363;
+	text-align: center;
+	margin-top: 15px;
+	opacity: none;
+
+}
+
+nav {
+	text-align: center;
+	margin-top: -35px;
+	list-style-image:
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: #9C8363;
+}
+
+/* visited link */
+a:visited {
+    color: #39183c;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: purple;
+}
+
+/* ABOUT US SECTION */
+
+#about_us_background {
+	background: url("http://i64.tinypic.com/a0dtvl.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#header-2 {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 140px;
+	margin-top: -26px;
+	opacity: 0.7;
+}
+
+#about_us_box {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 150px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 114.2px;
+	float:left;
+width:650px;
+overflow-y: auto;
+height: 450px;
+}
+
+p {
+	color: #9C8363;
+	padding-right: 50px;
+	padding-left: 50px
+
+}
+
+/* Products Section */
+
+#products_background{
+	background: url("https://a0lhiq-sn3302.files.1drv.com/y3mDOVeDbWYTteZvG-ejU12h1LgC6_yJhrDpNUKlOfAi0lcsJ1t2V_RMVN-RHTbffSiRmW86lqEkmFQzB9xdHkUL5c4WH7knQF_NpFjx-ngPZExl4vUHUWSSDw5MUJhRctmbgiwisRC6D4duJQohXy4D_xuJgdw4xCxMD6u14jmLme2gqMgu5PJKtEHRkmdBdQp?width=660&height=439&cropmode=none") no-repeat center center fixed;
+  background-size: cover;
+  }
+
+#Products_box {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 300px;
+	width: 100%;
+	opacity: 0.7;
+	margin-right: 70px;
+
+}
+
+/*faq Section*/
+#faq_background{
+	
+	background: url("https://qhluqa-sn3302.files.1drv.com/y3myS2cbFCdYlBRWziNzHHOfNmi2InG2jVqhIUPKGI07j6zg76R8ncNxkd1hTkLaetLQm_iADNeBmL_LI1WYj-jakx2jQBI8TbgTTNbUr_GLxdFrP2JWIQ1rl6K1Dfoa3HZPRmKJjfgCSkfy-u3k03TKLLhcC8PYF99kj5xfRL-jvCWL09V-YYGLAYnkt2NsX7V?width=6016&height=4000&cropmode=none") no-repeat center center fixed;
+  background-size: cover;
+  }
+
+  #faq_box {
+	background-color: black;
+	position:fixed;
+	left:0;
+	right:0;
+	height: 450px;
+	width: 650px;
+	opacity: 0.7;
+	margin-top: 280px;
+	margin-left: 630px;
+	float:left;
+width:650px;
+overflow-y: auto;
+height: 450px;
+}
+
+p {
+	color: #9C8363;
+	padding-right: 50px;
+	padding-left: 50px
+}
+
+@media (max-width: 800px)
+#about_us_box {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 220px;
+    margin-top: -26px;
+    margin-right: -30px;
+    opacity: 0.7;
