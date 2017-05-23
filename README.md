@@ -1,4 +1,4 @@
-[View](http://elitedatery.com/ "Here!")
+[View Here!](http://elitedatery.com/ )
 ![](images/ed.png)
 
 Elite Datery is a food start-up for creating luxury Dates.
